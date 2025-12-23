@@ -42,28 +42,29 @@ This project aims to:
 
 ## Project Structure
 
+```text
 lib/
 ├── core/
-│ ├── constants.dart
-│ └── theme.dart
+│   ├── constants.dart
+│   └── theme.dart
 ├── providers/
-│ ├── favorite_provider.dart
-│ └── theme_provider.dart
+│   ├── favorite_provider.dart
+│   └── theme_provider.dart
 ├── services/
-│ ├── auth_service.dart
-│ └── tmdb_service.dart
+│   ├── auth_service.dart
+│   └── tmdb_service.dart
 ├── screens/
-│ ├── about_screen.dart
-│ ├── detail_screen.dart
-│ ├── favorite_screen.dart
-│ ├── home_screen.dart
-│ ├── login_screen.dart
-│ ├── main_screen.dart
-│ ├── profile_screen.dart
-│ ├── register_screen.dart
-│ └── user_settings_screen.dart
+│   ├── about_screen.dart
+│   ├── detail_screen.dart
+│   ├── favorite_screen.dart
+│   ├── home_screen.dart
+│   ├── login_screen.dart
+│   ├── main_screen.dart
+│   ├── profile_screen.dart
+│   ├── register_screen.dart
+│   └── user_settings_screen.dart
 ├── widgets/
-│ └── movie_card.dart
+│   └── movie_card.dart
 └── main.dart
 ---
 
