@@ -1,141 +1,93 @@
 # FILMPEDIA
 
-FILMPEDIA adalah aplikasi mobile berbasis Flutter yang berfungsi sebagai katalog film digital. Aplikasi ini memanfaatkan **TMDB (The Movie Database) API** untuk menampilkan informasi film secara dinamis, dilengkapi dengan fitur autentikasi pengguna, manajemen favorit, pencarian, filter, serta antarmuka modern yang responsif.
+FILMPEDIA is a Flutter-based mobile application designed as a digital movie catalog.  
+The application integrates data from The Movie Database (TMDB) API to display movie information dynamically.
 
-Aplikasi ini dikembangkan sebagai bagian dari tugas akademik dan dirancang dengan pendekatan arsitektur yang terstruktur serta pengalaman pengguna (User Experience) yang optimal.
-
----
-
-## 🎯 Tujuan Aplikasi
-
-Tujuan utama pengembangan FILMPEDIA adalah:
-- Menyediakan platform pencarian dan eksplorasi film yang informatif
-- Mengimplementasikan konsep **API Integration**, **State Management**, dan **Firebase Authentication**
-- Menerapkan praktik pengembangan aplikasi mobile yang baik dan terstruktur
-- Menghasilkan aplikasi Flutter yang siap digunakan dan mudah dikembangkan lebih lanjut
+This project is developed as part of an academic assignment and focuses on structured application architecture, API integration, and user authentication.
 
 ---
 
-## 🚀 Fitur Utama
+## Features
 
-### 🔐 Autentikasi Pengguna
-- Login dan register menggunakan Firebase Authentication
-- Sistem sesi otomatis (auto-login)
-- Setiap akun memiliki data favorit masing-masing
-
-### 🏠 Halaman Home
-- Menampilkan daftar film dari TMDB API
-- Infinite scroll (pagination)
-- Skeleton loading (Shimmer)
-- Pull to refresh
-- Tombol “Scroll to Top”
-
-### 🔍 Pencarian & Filter
-- Pencarian film secara real-time
-- Filter berdasarkan:
-  - Popular
-  - Top Rated
-  - Upcoming
-  - Now Playing
-- Filter genre film
-- Kombinasi filter dan sort yang saling terintegrasi
-
-###  Favorit Film
-- Menambahkan dan menghapus film dari daftar favorit
-- Data favorit disimpan di Firebase Firestore
-- Favorit bersifat spesifik per akun pengguna
-
-###  Halaman Detail Film
-- Informasi lengkap film (judul, tahun, rating, sinopsis)
-- Trailer film (YouTube)
-- Tombol favorit langsung dari halaman detail
-
-###  Profil Pengguna
-- Menampilkan username dan email
-- Edit username
-- Logout dan switch account
-
-### ℹ️ About
-- Informasi pengembang
-- Informasi aplikasi
+- User authentication using Firebase Authentication
+- Movie listing from TMDB API
+- Movie categories (Popular, Top Rated, Upcoming, Now Playing)
+- Search and filtering functionality
+- Favorite movie management per user
+- Movie detail page with trailer support
+- User profile management
 
 ---
 
-## 🧠 Teknologi yang Digunakan
+## Tech Stack
 
-- **Flutter** – Framework utama pengembangan aplikasi
-- **Dart** – Bahasa pemrograman
-- **Firebase Authentication** – Autentikasi pengguna
-- **Firebase Firestore** – Penyimpanan data favorit dan profil pengguna
-- **TMDB API** – Sumber data film
-- **Provider** – State management
-- **YouTube Player Flutter** – Pemutar trailer
-- **Shimmer** – Skeleton loading UI
+- Flutter
+- Dart
+- Firebase Authentication
+- Firebase Firestore
+- TMDB API
+- Provider (State Management)
 
 ---
 
-## 📂 Struktur Proyek (Ringkas)
+## Project Purpose
+
+This project aims to:
+- Implement REST API integration in a Flutter application
+- Apply state management using Provider
+- Practice Firebase-based authentication and data storage
+- Build a structured and maintainable mobile application
+
+---
+
+## Project Structure (Simplified)
 
 lib/
-├── core/ # Konstanta & konfigurasi
-├── providers/ # State management (Theme, Favorite)
-├── services/ # API & Firebase service
-├── screens/ # Halaman aplikasi
-├── widgets/ # Reusable UI components
-└── main.dart # Entry point aplikasi
+├── core/
+├── providers/
+├── services/
+├── screens/
+├── widgets/
+└── main.dart
 
 yaml
 Copy code
 
 ---
 
-## ⚙️ Cara Menjalankan Proyek
+## How to Run
 
-1. Pastikan Flutter sudah terinstal
-2. Clone repository ini
+1. Ensure Flutter is installed
+2. Clone the repository
    ```bash
-   git clone https://github.com/username/filmpedia.git
-Masuk ke direktori proyek
+   git clone https://github.com/huffleepuff/filmpedia.git
+Navigate to the project directory
 
 bash
 Copy code
 cd filmpedia
-Install dependency
+Install dependencies
 
 bash
 Copy code
 flutter pub get
-Jalankan aplikasi
+Run the application
 
 bash
 Copy code
 flutter run
-📦 Build APK (Release)
-bash
-Copy code
-flutter build apk --release
-File APK akan berada di:
+Notes
+TMDB API key is used for learning purposes
 
+Firebase rules are applied to restrict user-specific data access
 
-build/app/outputs/flutter-apk/app-release.apk
-🔒 Catatan API & Keamanan
-API Key TMDB disimpan dalam file konfigurasi (tidak disarankan untuk production)
+This project is intended for academic and educational use
 
-Firebase Rules digunakan untuk membatasi akses data berdasarkan user ID
-
-Aplikasi ini ditujukan untuk keperluan pembelajaran dan akademik
-
-📌 Sumber Data
-The Movie Database (TMDB)
-https://www.themoviedb.org/
-
-👨‍💻 Pengembang
-Nama: Rizqi Akbar Hernawan
-Program Studi: Teknik Komputer
+Developer
+Name: Rizqi Akbar Hernawan
+Field of Study: Computer Engineering
 Platform: Flutter (Android)
 
-📄 Lisensi
-Proyek ini dibuat untuk keperluan akademik dan pembelajaran.
-Tidak digunakan untuk tujuan komersial.
-
-© 2025 – FILMPEDIA
+License
+This project is developed for academic and learning purposes only.
+Not intended for commercial use.
