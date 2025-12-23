@@ -40,7 +40,7 @@ This project aims to:
 
 ---
 
-## Project Structure 
+## Project Structure
 
 lib/
 ├── core/
@@ -65,7 +65,6 @@ lib/
 ├── widgets/
 │ └── movie_card.dart
 └── main.dart
-
 ---
 
 ## How to Run
