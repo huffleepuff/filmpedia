@@ -82,9 +82,10 @@ flutter run
 - This project is intended for academic and educational use
 
 ## Developer
-Name: Rizqi Akbar Hernawan
-Field of Study: Computer Engineering
-Platform: Flutter (Android)
+**Name:** Rizqi Akbar Hernawan  
+**Field of Study:** Computer Engineering  
+**Platform:** Flutter (Android)
+
 
 ## License
 - This project is developed for academic and learning purposes only.
