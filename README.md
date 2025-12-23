@@ -76,18 +76,16 @@ Run the application
 bash
 Copy code
 flutter run
-Notes
-TMDB API key is used for learning purposes
+## Notes
+- TMDB API key is used for learning purposes
+- Firebase rules are applied to restrict user-specific data access
+- This project is intended for academic and educational use
 
-Firebase rules are applied to restrict user-specific data access
-
-This project is intended for academic and educational use
-
-Developer
+## Developer
 Name: Rizqi Akbar Hernawan
 Field of Study: Computer Engineering
 Platform: Flutter (Android)
 
-License
+## License
 This project is developed for academic and learning purposes only.
 Not intended for commercial use.
