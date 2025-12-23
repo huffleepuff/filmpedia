@@ -40,18 +40,31 @@ This project aims to:
 
 ---
 
-## Project Structure (Simplified)
+## Project Structure 
 
 lib/
 ├── core/
+│ ├── constants.dart
+│ └── theme.dart
 ├── providers/
+│ ├── favorite_provider.dart
+│ └── theme_provider.dart
 ├── services/
+│ ├── auth_service.dart
+│ └── tmdb_service.dart
 ├── screens/
+│ ├── about_screen.dart
+│ ├── detail_screen.dart
+│ ├── favorite_screen.dart
+│ ├── home_screen.dart
+│ ├── login_screen.dart
+│ ├── main_screen.dart
+│ ├── profile_screen.dart
+│ ├── register_screen.dart
+│ └── user_settings_screen.dart
 ├── widgets/
+│ └── movie_card.dart
 └── main.dart
-
-yaml
-Copy code
 
 ---
 
