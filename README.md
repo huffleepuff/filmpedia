@@ -48,19 +48,19 @@ This project aims to:
    git clone https://github.com/huffleepuff/filmpedia.git
 Navigate to the project directory
 
-bash
-Copy code
-cd filmpedia
-Install dependencies
+**bash**
+**Copy code**
+**cd filmpedia**
+**Install dependencies**
 
-bash
-Copy code
-flutter pub get
-Run the application
+**bash**
+**Copy code**
+**flutter pub get**
+**Run the application**
 
-bash
-Copy code
-flutter run
+**bash
+**Copy code**
+**flutter run**
 ## Notes
 - TMDB API key is used for learning purposes
 - Firebase rules are applied to restrict user-specific data access
