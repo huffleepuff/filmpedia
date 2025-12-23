@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "409132481748",
+    "project_id": "filmpedia-816de",
+    "storage_bucket": "filmpedia-816de.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409132481748:android:a16059db08fdc8d3ce0f41",
+        "android_client_info": {
+          "package_name": "com.example.filmpedia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZUoDs7NsYyTjNQRbPD_ubZ_bzVzXIsnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+name: filmpedia
+description: "Aplikasi daftar film berbasis Flutter + Firebase + TMDB API"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+
+  # Network & Storage
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+
+  # State Management
+  provider: ^6.1.2
+
+  # Media & Utility
+  youtube_player_flutter: ^9.0.3
+  image_picker: ^1.1.2
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
